@@ -15,7 +15,7 @@ namespace StudentAdminPortal.API
         {
             CreateHostBuilder(args).Build().Run();
         }
-
+        //Added comment
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
